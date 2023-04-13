@@ -5,3 +5,4 @@ sudo apt-get install -y tmux vim
 ln -fs ~/dotfiles/vim ~/.vim
 ln -fs ~/.vim/vimrc ~/.vimrc
 
+vim +PlugClean +PlugUpdate +qall
